@@ -222,7 +222,14 @@ async function createBookInstances() {
       false,
       "Loaned"
     ),
-    bookInstanceCreate(9, books[0], "Imprint XXX2", false, false),
-    bookInstanceCreate(10, books[1], "Imprint XXX3", false, false),
+     bookInstanceCreate(
+      9,
+      books[1],
+      "Nosredna on fire, Anderson Atunes Soares Filho, 2026.",
+      false,
+      "Loaned"
+    ),
+    bookInstanceCreate(10, books[0], "Imprint XXX2", false, false),
+    bookInstanceCreate(11, books[1], "Imprint XXX3", false, false),
   ]);
 }
